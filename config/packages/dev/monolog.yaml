@@ -5,7 +5,7 @@ monolog:
             path: "%kernel.logs_dir%/%kernel.environment%.log"
             level: debug
             channels: ["!event"]
-        main:
+        messenger:
             type: stream
             path: "%kernel.logs_dir%/messenger.log"
             level: debug
